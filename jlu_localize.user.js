@@ -1365,7 +1365,7 @@ var jluVars = {
         'Archaeologist': [
         	'考古学者',
         	'Edited 100 posts that were inactive for 6 months',
-        	''
+        	'6ヶ月以上更新のなかった投稿を100個以上編集した'
         ],
         'Autobiographer': [
         	'自伝作家',
@@ -1380,10 +1380,10 @@ var jluVars = {
         'Beta': [
         	'ベータ版',
         	'Actively participated in the private beta',
-        	''
-    	],
+        	'プライベート・ベータに積極的に参加した'
+        ],
         'Booster': [
-        	'',
+        	'応援隊長',
         	'Shared a link to a question that was visited by 300 unique IP addresses',
         	'300個の固有のIPアドレスによって訪問された質問のリンクを共有した' // FIXME!
         ],
@@ -1408,9 +1408,9 @@ var jluVars = {
         	'10個のコメントを残した'
         ],
         'Convention': [
-        	'',
+        	'代表者',
         	'10 posts with score of 2 on meta',
-        	'{a|meta|メタ}で10個の1スコアの回答や質問を投稿した'
+        	'{a|meta|メタ}で10個の2スコアの回答や質問を投稿した'
         ],
         'Copy Editor': [
         	'コピー・エディター',
@@ -1425,7 +1425,7 @@ var jluVars = {
         'Deputy': [
         	'代理人', // Is this supposed to mean "deputy sherrif" or something?
         	'Achieved a flag weight of 500 by reviewing and flagging appropriately',
-        	''
+        	'適切な通報の積み重ねによって、通報力が500に達した' // FIXME
         ],
         'Disciplined': [
         	'厳しくしつけられた',
@@ -1445,7 +1445,7 @@ var jluVars = {
         'Enlightened': [
         	'覚者',
         	'First to answer and accepted with at least 10 upvotes',
-        	''
+        	'誰よりも先に回答し、10スコア以上で承認された'
         ],
         'Enthusiast': [
         	'熱狂者',
@@ -1460,7 +1460,7 @@ var jluVars = {
         'Excavator': [
         	'穴を掘る人',
         	'Edited first post that was inactive for 6 months',
-        	''
+        	'初めて編集した投稿が、それまで6ヶ月以上更新がなかった'
         ],
         'Famous Question': [
         	'有名な質問',
@@ -1480,7 +1480,7 @@ var jluVars = {
         'Generalist': [
         	'万能選手', // TODO: Is this word for athletes etc only?
         	'Provided non-wiki answers of 15 total score in 20 of top 40 tags',
-        	''
+        	'トップ40位以内のタグのうち、20個以上について、15スコア以上の回答を投稿した (ウィキは除く)'
         ],
         'Good Answer': [
         	'良い回答', 
@@ -1520,7 +1520,7 @@ var jluVars = {
         'Marshal': [
         	'元帥', 
         	'Achieved a flag weight of 749 by reviewing and flagging appropriately',
-        	''
+        	'適切な通報の積み重ねによって、通報力が749に達した' // FIXME
         ],
         'Mortarboard': [
         	'角帽',
@@ -1530,7 +1530,7 @@ var jluVars = {
         'Necromancer': [
         	'黒魔術師',
         	'Answered a question more than 60 days later with score of 5 or more',
-        	''
+        	'質問が投稿されてから60日以上後に、5スコア以上の回答をした'
         ],
         'Nice Answer': [
         	'ナイス回答', 
@@ -1555,7 +1555,7 @@ var jluVars = {
         'Outspoken': [
         	'積極的', // I translated it to "proactive"/"assertive" for now...
         	'Posted 10 messages in chat that were starred by 10 different users',
-        	''
+        	'チャットでの発言10個に、それぞれ別の人から星を付けられた'
         ],
         'Peer Pressure': [
         	'仲間からの圧力',
@@ -1570,22 +1570,22 @@ var jluVars = {
         'Populist': [
         	'大衆主義者',
         	'Highest scoring answer that outscored an accepted answer with score of more than 10 by more than 2x',
-        	''
+        	'投稿した回答の得票数が1位になり、ベストアンサーよりも2倍以上、かつ10スコア以上を集めた'
         ],
         'Precognitive': [
         	'正夢を見る人',
         	'Followed the Area 51 proposal for this site before it entered the commitment phase',
-        	''
+        	'Area 51で提案されてから参加署名募集の段階に入るまでの間にこのサイトをフォローした' // FIXME
         ],
         'Promoter': [
-        	'', // ???
+        	'宣伝者',
         	'First bounty you offered on your own question',
         	'自分の質問に初めて賞金を提供した'
         ],
         'Proofreader': [
         	'校正者',
         	'Approved or rejected 100 suggested edits',
-        	''
+        	'編集案を100個、承認・却下した'
         ],
         'Publicist': [
         	'広報担当者',
@@ -1615,7 +1615,7 @@ var jluVars = {
         'Revival': [
         	'復活',
         	'Answered more than 30 days later as first answer scoring 2 or more',
-        	''
+        	'質問が投稿されてから30日以上後に、最初の回答を投稿し、2スコアを集めた'
         ],
         'Scholar': [
         	'学者',
@@ -1630,7 +1630,7 @@ var jluVars = {
         'Sportsmanship': [
         	'スポーツマンシップ',
         	'Up voted 100 competing answers',
-        	''
+        	'別の人の回答に100回投票した'
         ],
         'Stellar Question': [
         	'素晴らしい質問',
@@ -1638,7 +1638,7 @@ var jluVars = {
         	'質問は100個のユーザーよってお気に入りに登録された'
         ],
         'Strunk & White': [
-        	'',
+        	'作文技術の権威',
         	'Edited 80 posts',
         	'80個の投稿を編集した'
         ],
@@ -1690,17 +1690,17 @@ var jluVars = {
         'Tumbleweed': [
         	'タンブルウィード', // ???
         	'Asked a question with no votes, no answers, no comments, and low views for a week',
-        	''
+        	'投稿した質問が、一週間の間、投票もなく、回答もなく、コメントもされず、ほとんど閲覧もされなかった'
         ],
         'Unsung Hero': [
-        	'',
+        	'縁の下の力持ち',
         	'Zero score accepted answers: more than 10 and 25% of total',
         	'0スコアベストアンサーは10個以上ですべての回答の25%'
         ],
         'Vox Populi': [
         	'国民の声',
         	'Used the maximum 40 votes in a day',
-        	''
+        	'1日に投票できる上限である40票を使いきった'
         ],
         'Yearling': [
         	'1周年記念', // "first year anniversary" :P
@@ -1719,12 +1719,12 @@ var jluVars = {
         'access to moderator tools': 'モデレータ・ツールをアクセスする',
         'approve tag wiki edits': '他の人のタグウィキ編集を認める',
         'create tag synonyms': 'タグ同義語を作る',
-        //'create gallery chat rooms': '',
+        'create gallery chat rooms': '閲覧用チャット・ルームを作る', // 座談会 閲覧専用 発言制限付き 放送 お立ち台 ギャラリー 見学?
         'edit questions and answers': '質問と回答を編集する',
         'established user': '認められたユーザー',
-        //'cast close and reopen votes': '',
+        'cast close and reopen votes': '質問の閉鎖・リオープン投票',
         'view close votes': '閉じる票数を見る',
-        //'retag questions': '',
+        'retag questions': '質問のタグを編集する',
         'create tags': '新しいタグを作る',
         'vote down': '下に投票する',
         'create chat rooms': 'チャットルームを作成する',
