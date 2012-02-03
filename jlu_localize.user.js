@@ -1424,8 +1424,8 @@ var jluVars = {
         ],
         'Deputy': [
         	'代理人', // Is this supposed to mean "deputy sherrif" or something?
-        	'Achieved a flag weight of 500 by reviewing and flagging appropriately',
-        	'適切な通報の積み重ねによって、通報力が500に達した' // FIXME
+        	'Raised 80 helpful flags',
+        	'参考になる通報を80回おこなった'
         ],
         'Disciplined': [
         	'厳しくしつけられた',
@@ -1519,8 +1519,8 @@ var jluVars = {
         ],
         'Marshal': [
         	'元帥', 
-        	'Achieved a flag weight of 749 by reviewing and flagging appropriately',
-        	'適切な通報の積み重ねによって、通報力が749に達した' // FIXME
+        	'Raised 500 helpful flags',
+        	'参考になる通報を500回おこなった'
         ],
         'Mortarboard': [
         	'角帽',
@@ -1644,8 +1644,8 @@ var jluVars = {
         ],
         'Student': [
         	'学生',
-        	'Asked first question with at least one up vote',
-        	'せめて一つの上に投票された質問をした'
+        	'Asked first question with score of 1 or more',
+        	'初めて投稿した質問のスコアが1以上'
         ],
         'Suffrage': [
         	'選挙権',
