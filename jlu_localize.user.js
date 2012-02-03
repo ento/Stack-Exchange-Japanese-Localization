@@ -2101,7 +2101,32 @@ var regexes = {
     'html: div#feed-link-text a': [
         [/^newest (.*?) questions feed$/, '最新{jluvar|1|tags}のタグの質問RSSフィード']
     ],
-    
+
+    //=======================================================//
+    //                    Badge Legends                      //
+    //=======================================================//
+
+    'text: div#badges-legend-module h4': [
+        ['^Legend$', '凡例']
+    ],
+
+    'text: div#badge-legend div.mb + p': [
+        ['^Gold Badges are rare\\. You\\’ll have to actively work toward these. They\\’re ' +
+        'something of an accomplishment!$',
+
+            '金のバッジはなかなか手に入るものではありません。獲得条件の達成に向けて、意識して努力する必要があります。手に入れたら、ぜひ自慢してください。'],
+
+        ['^Silver badges are awarded for longer term goals\\. Silver badges are uncommon, ' +
+        'but definitely attainable if you\\’re interested\\.$',
+
+            '銀のバッジは着実に実績を積み上げてきた人に与えられます。お目にかかるのは簡単ではありませんが、その気があれば誰でも達成可能です。'],
+
+        ['^Bronze badges are awarded for basic use of (.*?) - Stack ' +
+        'Exchange\\. They are easy to earn\\.$',
+
+            '銅のバッジは、このサービス「{jluvar|1|sites}、Stack Exchange」の基本的な使い方を身につけるだけで獲得できます。簡単ですよ。']
+    ],
+
     //=======================================================//
     //                    Misc Tooltips                      //
     //=======================================================//
